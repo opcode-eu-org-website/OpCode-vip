@@ -17,7 +17,7 @@
 	<p id="menu_extra">
 		<a href="vademecum.pdf"><img src="lib/pdfFile.svg" alt="Pobierz jako PDF" title="Pobierz jako PDF"/></a>
 		<a href="vademecum.tar.xz"><img src="lib/tarFile.svg" alt="Pobierz wersję offline" title="Pobierz wersję offline"/></a>
-		<a href="https://bitbucket.org/OpCode-eu-org/opcode-vip/src/master/"><img src="lib/gitRepo.svg" alt="Źródła strony (git repo)" title="Źródła strony (git repo)"/></a>
+		<a href="https://src.opcode.eu.org/OpCode-vip/"><img src="lib/gitRepo.svg" alt="Źródła strony (git repo)" title="Źródła strony (git repo)"/></a>
 		<br />
 		<a href="http://www.opcode.eu.org/"><img style="height: 80px;" src="lib/opcode.svg" alt="OpCode WWW site" title="Strona należy do serwisu OpCode.eu.org"/></a>
 	</p>
@@ -2503,8 +2503,8 @@ if (!blokada) {
 			<p>Także proces kompilacji kodu dla takich platform przebiega odmiennie niż przy „normalnym” programowaniu – bardzo często wykorzystywana jest cross kompilacja, czyli kompilator działa pod kontrolą innej architektury niż ta dla której tworzy kod. W związku z tym wykorzystywane są inne kompilatory wraz z własnymi zestawami bibliotek standardowych (stanowiące tzw. toolchain dla danej platformy). Bardzo istotne jest też często określenie w opcjach takiego kompilatora szczegółów mikrokontrolera dla którego chcemy zbudować dany kod (typowo toolchain dotyczy całej rodziny, a konkretny model mikrontrolera, posiadający konkretny zbiór peryferiów, itd określany jest w opcjach).</p>
 			
 			<p>Przykładowe kody wraz z opisem kompilacji lub plikiem Makefile automatyzującym kompilacje dla dwóch chyba najpopularniejszych rodzin mikrokontrolerów udostępniony jest w postaci repozytoriów git:<ul>
-				<li><a href="https://bitbucket.org/OpCode-eu-org/avr-examples">AVR-examples</a> - dla 8 bitowych mikrokontrolerów AVR</li>
-				<li><a href="https://bitbucket.org/OpCode-eu-org/stm32-examples">STM32-examples</a> - dla 32 bitowych mikrokontrolerów STM32 (rdzeń ARM)</li>
+				<li><a href="https://src.opcode.eu.org/AVR-examples">AVR-examples</a> - dla 8 bitowych mikrokontrolerów AVR</li>
+				<li><a href="https://src.opcode.eu.org/STM32-examples">STM32-examples</a> - dla 32 bitowych mikrokontrolerów STM32 (rdzeń ARM)</li>
 			</ul></p>
 		</section>
 		

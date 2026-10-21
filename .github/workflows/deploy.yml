@@ -1,4 +1,4 @@
-name: Build and deploy to GitHub Pages
+name: Build and deploy to Pages
 
 on:
   push:
@@ -78,6 +78,7 @@ jobs:
           mkdir dist
           ls -l ./tmp-artifact
           tar -xvf ./tmp-artifact/*.tar -C dist
+          cp dist/lib/404.html dist
           echo "/ /index.xhtml 200" >> dist/_redirects
           ls -l ./dist
 
