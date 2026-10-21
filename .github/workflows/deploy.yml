@@ -44,6 +44,7 @@ jobs:
           export TMPDIR=${{ runner.temp }}
           make all
           (cd output-www; ln -sf vademecum.xhtml index.xhtml)
+          cp OpCode-core/lib/404.html output-www
 
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
@@ -78,7 +79,6 @@ jobs:
           mkdir dist
           ls -l ./tmp-artifact
           tar -xvf ./tmp-artifact/*.tar -C dist
-          cp dist/lib/404.html dist
           echo "/ /index.xhtml 200" >> dist/_redirects
           ls -l ./dist
 
